@@ -3,7 +3,7 @@ name: hello-world
 jobs:
   my-job:
     runs-on: 
-    - self-hosted
+    - self-hosted-lambda
     - label-1
     steps:
       - name: my-step
