@@ -3,8 +3,7 @@ name: hello-world
 jobs:
   my-job:
     runs-on: 
-    - self-hosted-lambda
-    - label-1
+    - self-hosted
     steps:
       - name: my-step
         run: echo "Hello World!"
